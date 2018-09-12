@@ -10,6 +10,7 @@ namespace Alg_work_1
     {
         static void Main(string[] args)
         {
+            //Тест №1
         }
     }
 }
