@@ -38,10 +38,23 @@ namespace Alg_work_1
             return Xn;
         }
 
+        public static double GetXn_Rec(int N)
+        {
+            double Xn = 0;
+            if (N == 0) return 0;
+            if (N == 1) return 1;
+            else
+            {
+                Xn = 12 - 2 * (GetXn_Rec(N-2)) + 3 * (GetXn_Rec(N-1));
+                return Xn;
+            }
+            
+        }
+
         static void Main(string[] args)
         {
-            int N = 2;
-            Console.WriteLine(GetXn_For(N).ToString()+"  "+ GetXn_N(N).ToString());
+            int N = 1;
+            Console.WriteLine(GetXn_For(N).ToString()+"  "+ GetXn_N(N).ToString()+"  "+GetXn_Rec(N).ToString());
       
         }
     }
