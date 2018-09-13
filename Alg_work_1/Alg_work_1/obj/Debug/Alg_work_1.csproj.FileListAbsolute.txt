@@ -1,0 +1,7 @@
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\bin\Debug\Alg_work_1.exe.config
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\bin\Debug\Alg_work_1.exe
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\bin\Debug\Alg_work_1.pdb
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\obj\Debug\Alg_work_1.csprojResolveAssemblyReference.cache
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\obj\Debug\Alg_work_1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\obj\Debug\Alg_work_1.exe
+C:\Users\DELL\source\git\HSE_Alg_work_1\Alg_work_1\Alg_work_1\obj\Debug\Alg_work_1.pdb
