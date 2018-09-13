@@ -8,22 +8,41 @@ namespace Alg_work_1
 {
     class Program
     {
-        static void Main(string[] args)
+        //поиск Xn в цикле for
+        public static int GetXn_For(int N)
         {
-            //Простой вызов
-           int X0 = 0;
+            int X0 = 0;
             int X1 = 0;
-            int Xn = 1;
-            int N = 3;
+           int  Xn = 1;
+            if (N < 0) N = 0;
 
-            for (int i = 0; i < N+1; i++)
+            for (int i = 0; i < N ; i++)
             {
                 X0 = X1;
                 X1 = Xn;
-                Xn=12-2*X0+3*X1;
+
+                Xn = 12 - 2 * X0 + 3 * X1;
+               
+
 
             }
-            Console.WriteLine(X0);
+
+            return X1;
+        }
+
+        public static double GetXn_N(int N)
+        {
+            double Xn = 0;
+            Xn = -13 + 13 * Math.Pow(2, N) - 12 * N;
+
+            return Xn;
+        }
+
+        static void Main(string[] args)
+        {
+            int N = 2;
+            Console.WriteLine(GetXn_For(N).ToString()+"  "+ GetXn_N(N).ToString());
+      
         }
     }
 }
