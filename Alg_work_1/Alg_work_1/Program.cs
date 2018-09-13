@@ -9,12 +9,12 @@ namespace Alg_work_1
     class Program
     {
         //поиск Xn в цикле for
-        public static int GetXn_For(int N)
+        public static double GetXn_For(int N)
         {
-            int X0 = 0;
-            int X1 = 0;
-           int  Xn = 1;
-            if (N < 0) N = 0;
+            double X0 = 0;
+            double X1 = 0;
+           double  Xn = 1;
+            if (N < 0) return 0;
 
             for (int i = 0; i < N ; i++)
             {
@@ -32,6 +32,8 @@ namespace Alg_work_1
 
         public static double GetXn_N(int N)
         {
+            if (N < 0) return 0;
+
             double Xn = 0;
             Xn = -13 + 13 * Math.Pow(2, N) - 12 * N;
 
@@ -40,6 +42,8 @@ namespace Alg_work_1
 
         public static double GetXn_Rec(int N)
         {
+            if (N < 0) return 0;
+
             double Xn = 0;
             if (N == 0) return 0;
             if (N == 1) return 1;
@@ -53,7 +57,7 @@ namespace Alg_work_1
 
         static void Main(string[] args)
         {
-            int N = 1;
+            int N = 40;
             Console.WriteLine(GetXn_For(N).ToString()+"  "+ GetXn_N(N).ToString()+"  "+GetXn_Rec(N).ToString());
       
         }
